@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.60 scan initiated Mon Oct  2 19:27:07 2017 as: nmap -Pn -sV -sC -O -p- -T4 -vvvvv -oA /tmp/sparta-_cFVUO-running/nmap/20171002192707-nmapfulltcp-192.168.2.89 192.168.2.89 -->
+<nmaprun scanner="nmap" args="nmap -Pn -sV -sC -O -p- -T4 -vvvvv -oA /tmp/sparta-_cFVUO-running/nmap/20171002192707-nmapfulltcp-192.168.2.89 192.168.2.89" start="1506990427" startstr="Mon Oct  2 19:27:07 2017" version="7.60" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="5"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1506990428"/>
+<taskend task="NSE" time="1506990428"/>
+<taskbegin task="NSE" time="1506990428"/>
+<taskend task="NSE" time="1506990428"/>
+<taskbegin task="ARP Ping Scan" time="1506990428"/>
+<taskend task="ARP Ping Scan" time="1506990428" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1506990428"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1506990428"/>
+<taskbegin task="SYN Stealth Scan" time="1506990428"/>
+<taskprogress task="SYN Stealth Scan" time="1506990459" percent="25.21" remaining="92" etc="1506990551"/>
+<taskprogress task="SYN Stealth Scan" time="1506990489" percent="26.71" remaining="168" etc="1506990656"/>
+<taskprogress task="SYN Stealth Scan" time="1506990519" percent="28.25" remaining="232" etc="1506990750"/>
+<taskprogress task="SYN Stealth Scan" time="1506990549" percent="30.29" remaining="279" etc="1506990828"/>
+<taskprogress task="SYN Stealth Scan" time="1506990579" percent="32.31" remaining="317" etc="1506990895"/>
+<taskprogress task="SYN Stealth Scan" time="1506990609" percent="34.25" remaining="348" etc="1506990957"/>
+<taskprogress task="SYN Stealth Scan" time="1506990639" percent="36.01" remaining="375" etc="1506991014"/>
+<taskprogress task="SYN Stealth Scan" time="1506990684" percent="38.69" remaining="406" etc="1506991090"/>
+<taskprogress task="SYN Stealth Scan" time="1506990774" percent="44.03" remaining="440" etc="1506991214"/>
+<taskprogress task="SYN Stealth Scan" time="1506991020" percent="59.70" remaining="400" etc="1506991420"/>
+<taskprogress task="SYN Stealth Scan" time="1506991128" percent="66.70" remaining="350" etc="1506991477"/>
+<taskprogress task="SYN Stealth Scan" time="1506991215" percent="72.64" remaining="297" etc="1506991511"/>
+<taskprogress task="SYN Stealth Scan" time="1506991299" percent="78.33" remaining="241" etc="1506991540"/>
+<taskprogress task="SYN Stealth Scan" time="1506991380" percent="83.82" remaining="184" etc="1506991564"/>
+<taskprogress task="SYN Stealth Scan" time="1506991458" percent="89.10" remaining="127" etc="1506991584"/>
+<taskprogress task="SYN Stealth Scan" time="1506991533" percent="94.20" remaining="69" etc="1506991601"/>
+<taskend task="SYN Stealth Scan" time="1506991803" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1506991803"/>
+<taskend task="Service scan" time="1506991809" extrainfo="2 services on 1 host"/>
+<taskbegin task="NSE" time="1506991813"/>
+<taskend task="NSE" time="1506991813"/>
+<taskbegin task="NSE" time="1506991813"/>
+<taskend task="NSE" time="1506991813"/>
+<host starttime="1506990428" endtime="1506991813"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.2.89" addrtype="ipv4"/>
+<address addr="7C:D1:C3:EB:19:65" addrtype="mac" vendor="Apple"/>
+<hostnames>
+<hostname name="Moria.BreakfastHouse" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="65529">
+<extrareasons reason="resets" count="65529"/>
+</extraports>
+<port protocol="tcp" portid="20"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ftp-data" method="table" conf="3"/></port>
+<port protocol="tcp" portid="21"><state state="filtered" reason="port-unreach" reason_ttl="64"/><service name="ftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" product="OpenSSH" version="6.6.1" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:6.6.1</cpe></service><script id="ssh-hostkey" output="&#xa;  2048 47:b5:ed:e3:f9:ad:96:88:c0:f2:83:23:7f:a3:d3:4f (RSA)&#xa;ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5gdKNO3UCeDGX36RIZSkcVHvWknoFBZe2IT96Gep79sECS7G2pO76RFdOCJMru0Ek9EQKhMhHTrVI0DWDJFp2apdEPVsqn8nuJKUCHbaL49frQtFnR64b5WoM+f7VgEN84S+iPmUCwwgIMjR5hoYCAJFdJNpE27ZguVbnnN+i1491TDIO/cN92Uut/T70C3bntlsptY9N+fR0hOdkLg+K+TT1zX2BZOw99OMn9ytt3kSi4DNaoDpn9GDOfXhqeQH/eJWmFNTsFSM2+GHOAZKc0Ichiqhxf3WHoGOnliH8XdV6ZNpjHA8jGCYVcPnkTk42nP7E9Ql7mabsi+L3Ugq3&#xa;  256 85:cd:a2:d8:bb:85:f6:0f:4e:ae:8c:aa:73:52:ec:63 (ECDSA)&#xa;ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCuLX/CWxsOhekXJRxQqQH/Yx0SD+XgUpmlmWN1Y8cvmCYJslOh4vE+I6fmMwCdBfi4W061RmFc+vMALlQUYNz0=&#xa;  256 b1:77:7e:08:b3:a0:84:f8:f4:5d:f9:8e:d5:85:b9:34 (EdDSA)&#xa;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILxa4UjJJ2naeaBginolO5UHAS/rB0Wh5mtDLQuNUYaN"><table>
+<elem key="fingerprint">47b5ede3f9ad9688c0f283237fa3d34f</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQC5gdKNO3UCeDGX36RIZSkcVHvWknoFBZe2IT96Gep79sECS7G2pO76RFdOCJMru0Ek9EQKhMhHTrVI0DWDJFp2apdEPVsqn8nuJKUCHbaL49frQtFnR64b5WoM+f7VgEN84S+iPmUCwwgIMjR5hoYCAJFdJNpE27ZguVbnnN+i1491TDIO/cN92Uut/T70C3bntlsptY9N+fR0hOdkLg+K+TT1zX2BZOw99OMn9ytt3kSi4DNaoDpn9GDOfXhqeQH/eJWmFNTsFSM2+GHOAZKc0Ichiqhxf3WHoGOnliH8XdV6ZNpjHA8jGCYVcPnkTk42nP7E9Ql7mabsi+L3Ugq3</elem>
+<elem key="bits">2048.0</elem>
+</table>
+<table>
+<elem key="fingerprint">85cda2d8bb85f60f4eae8caa7352ec63</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCuLX/CWxsOhekXJRxQqQH/Yx0SD+XgUpmlmWN1Y8cvmCYJslOh4vE+I6fmMwCdBfi4W061RmFc+vMALlQUYNz0=</elem>
+<elem key="bits">256</elem>
+</table>
+<table>
+<elem key="fingerprint">b1777e08b3a084f8f45df98ed585b934</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAILxa4UjJJ2naeaBginolO5UHAS/rB0Wh5mtDLQuNUYaN</elem>
+<elem key="bits">256</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Apache httpd" version="2.4.6" extrainfo="(CentOS) PHP/5.4.16" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.6</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: GET HEAD POST OPTIONS"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+</script><script id="http-server-header" output="Apache/2.4.6 (CentOS) PHP/5.4.16"><elem>Apache/2.4.6 (CentOS) PHP/5.4.16</elem>
+</script><script id="http-title" output="Gates of Moria"><elem key="title">Gates of Moria</elem>
+</script></port>
+<port protocol="tcp" portid="989"><state state="filtered" reason="port-unreach" reason_ttl="64"/><service name="ftps-data" method="table" conf="3"/></port>
+<port protocol="tcp" portid="990"><state state="filtered" reason="port-unreach" reason_ttl="64"/><service name="ftps" method="table" conf="3"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<osmatch name="Linux 3.2 - 4.8" accuracy="100" line="62168">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.60%E=4%D=10/2%OT=22%CT=1%CU=%PV=Y%DS=1%DC=D%G=N%M=7CD1C3%TM=59D&#xa;OS:2DEC5%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=109%TI=Z%CI=I%TS=A)OPS(&#xa;OS:O1=M5B4ST11NW7%O2=M5B4ST11NW7%O3=M5B4NNT11NW7%O4=M5B4ST11NW7%O5=M5B4ST11&#xa;OS:NW7%O6=M5B4ST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120)ECN(&#xa;OS:R=Y%DF=Y%TG=40%W=7210%O=M5B4NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%TG=40%S=O%A=S+%F=&#xa;OS:AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%TG=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5&#xa;OS:(R=Y%DF=Y%TG=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%TG=40%W=0%S=A%A&#xa;OS:=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%TG=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=N)&#xa;OS:IE(R=Y%DFI=N%TG=40%CD=S)&#xa;"/>
+</os>
+<uptime seconds="44631" lastboot="Mon Oct  2 07:26:22 2017"/>
+<distance value="1"/>
+<tcpsequence index="259" difficulty="Good luck!" values="ACFAB7D0,D2AA3D80,C59AEBAA,22ED4223,E0BFDDDF,3207FE45"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="2A8F438,2A8F498,2A8F4FE,2A8F560,2A8F5C5,2A8F628"/>
+<times srtt="6488" rttvar="5924" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1506991813"/>
+<taskend task="NSE" time="1506991813"/>
+<taskbegin task="NSE" time="1506991813"/>
+<taskend task="NSE" time="1506991813"/>
+<runstats><finished time="1506991813" timestr="Mon Oct  2 19:50:13 2017" elapsed="1386.01" summary="Nmap done at Mon Oct  2 19:50:13 2017; 1 IP address (1 host up) scanned in 1386.01 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

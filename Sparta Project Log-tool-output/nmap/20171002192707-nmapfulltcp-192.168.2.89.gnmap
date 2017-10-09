@@ -1,0 +1,5 @@
+# Nmap 7.60 scan initiated Mon Oct  2 19:27:07 2017 as: nmap -Pn -sV -sC -O -p- -T4 -vvvvv -oA /tmp/sparta-_cFVUO-running/nmap/20171002192707-nmapfulltcp-192.168.2.89 192.168.2.89
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 192.168.2.89 (Moria.BreakfastHouse)	Status: Up
+Host: 192.168.2.89 (Moria.BreakfastHouse)	Ports: 20/filtered/tcp//ftp-data///, 21/filtered/tcp//ftp///, 22/open/tcp//ssh//OpenSSH 6.6.1 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.6 ((CentOS) PHP|5.4.16)/, 989/filtered/tcp//ftps-data///, 990/filtered/tcp//ftps///	Ignored State: closed (65529)	OS: Linux 3.2 - 4.8	Seq Index: 259	IP ID Seq: All zeros
+# Nmap done at Mon Oct  2 19:50:13 2017 -- 1 IP address (1 host up) scanned in 1386.01 seconds

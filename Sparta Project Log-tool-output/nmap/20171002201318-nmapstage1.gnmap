@@ -1,0 +1,4 @@
+# Nmap 7.60 scan initiated Mon Oct  2 20:13:18 2017 as: nmap -T4 -sV -sSU -p T:80,443 -oA /tmp/sparta-_cFVUO-running/nmap/20171002201318-nmapstage1 192.168.2.55
+Host: 192.168.2.55 (Moria.BreakfastHouse)	Status: Up
+Host: 192.168.2.55 (Moria.BreakfastHouse)	Ports: 80/open/tcp//http//Apache httpd 2.4.6 ((CentOS) PHP|5.4.16)/, 443/closed/tcp//https///
+# Nmap done at Mon Oct  2 20:13:25 2017 -- 1 IP address (1 host up) scanned in 7.50 seconds

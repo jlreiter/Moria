@@ -1,0 +1,23 @@
+# Nmap 7.60 scan initiated Mon Oct  2 20:13:26 2017 as: nmap -T4 -sV -n -sSU -O -p T:25,135,137,139,445,1433,3306,5432,U:137,161,162,1434 -oA /tmp/sparta-_cFVUO-running/nmap/20171002201325-nmapstage2 192.168.2.55
+Nmap scan report for 192.168.2.55
+Host is up (0.031s latency).
+
+PORT     STATE  SERVICE      VERSION
+25/tcp   closed smtp
+135/tcp  closed msrpc
+137/tcp  closed netbios-ns
+139/tcp  closed netbios-ssn
+445/tcp  closed microsoft-ds
+1433/tcp closed ms-sql-s
+3306/tcp closed mysql
+5432/tcp closed postgresql
+137/udp  closed netbios-ns
+161/udp  closed snmp
+162/udp  closed snmptrap
+1434/udp closed ms-sql-m
+MAC Address: 7C:D1:C3:EB:19:65 (Apple)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Oct  2 20:13:29 2017 -- 1 IP address (1 host up) scanned in 3.97 seconds

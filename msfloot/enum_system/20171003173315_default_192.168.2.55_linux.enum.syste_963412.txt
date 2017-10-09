@@ -1,0 +1,16 @@
+/var/log/lastlog
+/var/log/wtmp
+/var/log/tuned/tuned.log
+/var/log/firewalld
+/var/log/dmesg.old
+/var/log/wpa_supplicant.log
+/var/log/Xorg.0.log.old
+/var/log/vmware-tools-upgrader.log
+/var/log/vmware-install.log
+/var/log/vmware-vmsvc.log
+/var/log/vmware-vmusr.log
+/var/log/Xorg.1.log.old
+/var/log/Xorg.1.log
+/var/log/Xorg.0.log
+/var/log/boot.log
+/var/log/dmesg

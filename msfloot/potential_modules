@@ -1,0 +1,19 @@
+post/linux/gather/checkcontainer                                                normal     Linux Gather Container Detection
+   post/linux/gather/checkvm                                                       normal     Linux Gather Virtual Environment Detection
+   post/linux/gather/ecryptfs_creds                                                normal     Gather eCryptfs Metadata
+   post/linux/gather/enum_configs                                                  normal     Linux Gather Configurations
+   post/linux/gather/enum_network                                                  normal     Linux Gather Network Information
+   post/linux/gather/enum_protections                                              normal     Linux Gather Protection Enumeration
+   post/linux/gather/enum_psk                                                      normal     Linux Gather 802-11-Wireless-Security Credentials
+   post/linux/gather/enum_system                                                   normal     Linux Gather System and User Information
+   post/linux/gather/enum_users_history                                            normal     Linux Gather User History
+   post/linux/gather/enum_xchat                                                    normal     Linux Gather XChat Enumeration
+   post/linux/gather/gnome_commander_creds                                         normal     Linux Gather Gnome-Commander Creds
+   post/linux/gather/gnome_keyring_dump                                            normal     Gnome-Keyring Dump
+   post/linux/gather/hashdump                                                      normal     Linux Gather Dump Password Hashes for Linux Systems
+   post/linux/gather/mount_cifs_creds                                              normal     Linux Gather Saved mount.cifs/mount.smbfs Credentials
+   post/linux/gather/openvpn_credentials                                           normal     OpenVPN Gather Credentials
+   post/linux/gather/pptpd_chap_secrets                                            normal     Linux Gather PPTP VPN chap-secrets Credentials
+   post/linux/gather/tor_hiddenservices                                            normal     Linux Gather TOR Hidden Services
+   post/linux/manage/download_exec                                                 normal     Linux Manage Download and Execute
+   post/linux/manage/sshkey_persistence                                            excellent  SSH Key Persistence

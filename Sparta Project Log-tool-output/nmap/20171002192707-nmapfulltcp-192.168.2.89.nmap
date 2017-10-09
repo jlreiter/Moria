@@ -1,0 +1,55 @@
+# Nmap 7.60 scan initiated Mon Oct  2 19:27:07 2017 as: nmap -Pn -sV -sC -O -p- -T4 -vvvvv -oA /tmp/sparta-_cFVUO-running/nmap/20171002192707-nmapfulltcp-192.168.2.89 192.168.2.89
+Increasing send delay for 192.168.2.89 from 5 to 10 due to 137 out of 342 dropped probes since last increase.
+Warning: 192.168.2.89 giving up on port because retransmission cap hit (6).
+adjust_timeouts2: packet supposedly had rtt of -423725 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -2273672 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -2273672 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -2325282 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -2325282 microseconds.  Ignoring time.
+Nmap scan report for Moria.BreakfastHouse (192.168.2.89)
+Host is up, received arp-response (0.0065s latency).
+Scanned at 2017-10-02 19:27:08 CDT for 1385s
+Not shown: 65529 closed ports
+Reason: 65529 resets
+PORT    STATE    SERVICE   REASON              VERSION
+20/tcp  filtered ftp-data  no-response
+21/tcp  filtered ftp       port-unreach ttl 64
+22/tcp  open     ssh       syn-ack ttl 64      OpenSSH 6.6.1 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 47:b5:ed:e3:f9:ad:96:88:c0:f2:83:23:7f:a3:d3:4f (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5gdKNO3UCeDGX36RIZSkcVHvWknoFBZe2IT96Gep79sECS7G2pO76RFdOCJMru0Ek9EQKhMhHTrVI0DWDJFp2apdEPVsqn8nuJKUCHbaL49frQtFnR64b5WoM+f7VgEN84S+iPmUCwwgIMjR5hoYCAJFdJNpE27ZguVbnnN+i1491TDIO/cN92Uut/T70C3bntlsptY9N+fR0hOdkLg+K+TT1zX2BZOw99OMn9ytt3kSi4DNaoDpn9GDOfXhqeQH/eJWmFNTsFSM2+GHOAZKc0Ichiqhxf3WHoGOnliH8XdV6ZNpjHA8jGCYVcPnkTk42nP7E9Ql7mabsi+L3Ugq3
+|   256 85:cd:a2:d8:bb:85:f6:0f:4e:ae:8c:aa:73:52:ec:63 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCuLX/CWxsOhekXJRxQqQH/Yx0SD+XgUpmlmWN1Y8cvmCYJslOh4vE+I6fmMwCdBfi4W061RmFc+vMALlQUYNz0=
+|   256 b1:77:7e:08:b3:a0:84:f8:f4:5d:f9:8e:d5:85:b9:34 (EdDSA)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILxa4UjJJ2naeaBginolO5UHAS/rB0Wh5mtDLQuNUYaN
+80/tcp  open     http      syn-ack ttl 64      Apache httpd 2.4.6 ((CentOS) PHP/5.4.16)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.6 (CentOS) PHP/5.4.16
+|_http-title: Gates of Moria
+989/tcp filtered ftps-data port-unreach ttl 64
+990/tcp filtered ftps      port-unreach ttl 64
+MAC Address: 7C:D1:C3:EB:19:65 (Apple)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.8
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=10/2%OT=22%CT=1%CU=%PV=Y%DS=1%DC=D%G=N%M=7CD1C3%TM=59D
+OS:2DEC5%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=109%TI=Z%CI=I%TS=A)OPS(
+OS:O1=M5B4ST11NW7%O2=M5B4ST11NW7%O3=M5B4NNT11NW7%O4=M5B4ST11NW7%O5=M5B4ST11
+OS:NW7%O6=M5B4ST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120)ECN(
+OS:R=Y%DF=Y%TG=40%W=7210%O=M5B4NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%TG=40%S=O%A=S+%F=
+OS:AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%TG=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5
+OS:(R=Y%DF=Y%TG=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%TG=40%W=0%S=A%A
+OS:=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%TG=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=N)
+OS:IE(R=Y%DFI=N%TG=40%CD=S)
+
+Uptime guess: 0.517 days (since Mon Oct  2 07:26:22 2017)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Oct  2 19:50:13 2017 -- 1 IP address (1 host up) scanned in 1386.01 seconds

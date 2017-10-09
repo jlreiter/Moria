@@ -1,0 +1,4 @@
+iptables v1.4.21: can't initialize iptables table `filter': Permission denied (you must be root)
+Perhaps iptables or your kernel needs to be upgraded.iptables v1.4.21: can't initialize iptables table `nat': Permission denied (you must be root)
+Perhaps iptables or your kernel needs to be upgraded.iptables v1.4.21: can't initialize iptables table `mangle': Permission denied (you must be root)
+Perhaps iptables or your kernel needs to be upgraded.

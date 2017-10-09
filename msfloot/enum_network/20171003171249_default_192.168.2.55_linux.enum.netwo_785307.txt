@@ -1,0 +1,1 @@
+/bin/sh: iwconfig: command not found
